@@ -1,4 +1,4 @@
-.mediablock img {
+img.media__img {
     cursor: pointer;
     -o-object-fit: cover;
     object-fit: cover;
@@ -11,7 +11,7 @@
     -o-transition: transform .5s ease-in-out;
 }
 
-.mediablock img.clicked {
+img.media__img.clicked {
     transform: scale(2.5);
     -webkit-transform: scale(2.5);
     -moz-transform: scale(2.5);
