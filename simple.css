@@ -1,5 +1,5 @@
 img.media__img {
-    cursor: pointer;
+    cursor: zoom-in;
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
@@ -12,6 +12,7 @@ img.media__img {
 }
 
 img.media__img.clicked {
+    cursor: zoom-out;
     transform: scale(2.5);
     -webkit-transform: scale(2.5);
     -moz-transform: scale(2.5);
